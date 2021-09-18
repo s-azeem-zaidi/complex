@@ -49,5 +49,5 @@ services:
       dockerfile: Dockerfile.dev
       context: ./worker
     volumes:
-      - /home/node//app/node_modules
+      - /home/node/app/node_modules
       - ./worker:/home/node/app
